@@ -1,1 +1,2 @@
 This is the fix file that can fix the bug 
+fixed another bug 
