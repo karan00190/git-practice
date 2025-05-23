@@ -1,1 +1,2 @@
 This is my file2 for gitgit add
+2025 footer note added
