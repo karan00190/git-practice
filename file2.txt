@@ -1,4 +1,2 @@
 This is my file2 for gitgit add
-This is my updated code 
-footer note
-2024
+2025 footer note added
