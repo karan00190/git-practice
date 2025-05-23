@@ -3,11 +3,9 @@ pipeline {
     agent any // Runs the pipeline on any available Jenkins agent (here, the Master itself)
 
     stages {
-        stage('Checkout') {
-            steps {
-                git 'https://github.com/your-username/my-simple-app.git' // Replace with your actual repository URL
-            }
-        }
+        // REMOVED THE PREVIOUS 'stage('Checkout')' HERE
+        // The SCM checkout configured in the Jenkins job will handle getting the code.
+
         stage('Print Files') {
             steps {
                 echo 'Listing files in workspace:'
